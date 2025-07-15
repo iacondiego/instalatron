@@ -159,7 +159,7 @@ export function ProductGrid({ selectedCategory, selectedSubcategory }: ProductGr
                     // Mostrar placeholder si no hay video
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">{product.category}"</span>
+                        <span className="text-white font-bold text-sm">{product.category}&quot;</span>
                       </div>
                     </div>
                   )}
